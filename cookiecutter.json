@@ -6,6 +6,6 @@
   "document_type": "technische documentatie",
   "specType": "{{ cookiecutter.document_type.lower() }}",
   "first_editor": "Redmer Kronemeijer",
-  "on_review_track": "y",
-  "license": ["undefined", "cc-by", "cc-by-sa"]
+  "on_review_track": "true",
+  "license": ["undefined", "cc0", "cc-by", "cc-by-sa"]
 }
