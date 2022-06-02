@@ -13,9 +13,7 @@ The [stichting-crow/respec-repo-template] uses this template for new documents i
 ## Usage
 
 There is no need to clone this repository.
-Use the provided GitHub Action _Nieuw document toevoegen_ if you're using a recent fork of [stichting-crow/respec-repo-template].
-
-Else, run the below function from the command line (requires `pip`).
+Run the below function from the command line (requires `python` and `pip`).
 
 ```cli
 $ cd docs/
