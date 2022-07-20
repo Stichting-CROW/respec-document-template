@@ -2,7 +2,7 @@ var respecConfig = {
   // => https://github.com/stichting-crow/respec/wiki
   specStatus: "{% if cookiecutter.on_review_track == 'true' %}WD{% else %}DRAFT{% endif %}",
   shortName: "{{ cookiecutter.repository_name }}/{{ cookiecutter._document_slug }}",
-  specType: "{{ cookiecutter._spec_type }}", // vrije tekst
+  specType: "{{ cookiecutter.__spec_type }}", // vrije tekst
   imprint: "{{ cookiecutter.publisher }}",
   editors: [
     {

@@ -1,11 +1,11 @@
 {
-  " ": "]\nNew ReSpec document\nOnly `A-Z`, `0-9`, `-` allowed in `document_short_name`, `repository_name`.\n[Press enter to continue",
+  " ": "]\nNew ReSpec document\nOnly `a-z`, `0-9`, `-` allowed in `document_short_name`, `repository_name`.\n[Press enter to continue",
   "document_short_name": "im",
-  "_document_slug": "{{ cookiecutter.document_short_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "__document_slug": "{{ cookiecutter.document_short_name|lower|replace(' ', '-')|replace('_', '-') }}",
   "repository_name": "imbor",
   "document_title": "Informatiemodel Beheer Openbare Ruimte",
   "document_type": "technische documentatie",
-  "_spec_type": "{{ cookiecutter.document_type.lower() }}",
+  "__spec_type": "{{ cookiecutter.document_type|lower }}",
   "first_editor": "Voornaam van de Achternaam",
   "on_review_track": ["no formal versioning", "true"],
   "license": ["undefined", "cc0", "cc-by", "cc-by-sa"],
@@ -23,5 +23,5 @@
     "iampro",
     "knspv"
   ],
-  "  ": "{% set update_result = cookiecutter.update({' ': ''}) %}Finished with all questions - Press enter to generate your project"
+  "  ": "Finished with all questions - Press enter to generate your project"
 }
